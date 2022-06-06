@@ -1,0 +1,436 @@
+doctype
+html
+  head
+    meta(charset='UTF-8')
+    title= title
+    meta(name='viewport' content='width=device-width, user-scalable=no')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    link(rel='stylesheet' href='/profile.css')
+    script(type="text/javascript" src='js/roll.js')
+    script(type="text/javascript" src='js/profile.js')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css' integrity='sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU' crossorigin='anonymous')
+    script(src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous')
+    script(src='https://code.jquery.com/ui/1.13.1/jquery-ui.js')
+  body
+    .container
+      .logo
+        a(href='https://www.cku.ac.kr/sites/cku/index.do' title=`학교 홈페이지` target='_blank')
+          img(src='images/logo.png' alt='홈으로')
+      case user.dnick
+        when `소프트웨어`:  .cont.s--inactive
+                            // cont inner start
+                            .cont__inner
+                              // el start
+                              .el
+                                .el__overflow
+                                  .el__inner
+                                    .el__bg
+                                    .el__preview-cont
+                                      h2.el__heading 학<br>사<br>일<br>정
+                                    .el__content
+                                      .el__text 준비중
+                                      .el__close-btn
+                                .el__index
+                                  .el__index-back 
+                                  .el__index-front
+                                    .el__index-overlay(data-index='1') 
+                              // el end
+                              // el start
+                              .el
+                                .el__overflow
+                                  .el__inner
+                                    .el__bg
+                                    .el__preview-cont
+                                      h2.el__heading 교<br>육<br>과<br>정
+                                    .el__content
+                                      .el__text 소프트웨어학과 교육과정
+                                      .el__close-btn
+                                .el__index
+                                  .el__index-back 
+                                  .el__index-front
+                                    .el__index-overlay(data-index='2') 
+                              // el end
+                              // el start
+                              .el
+                                .el__overflow
+                                  .el__inner
+                                    .el__bg
+                                    .el__preview-cont
+                                      h2.el__heading 준<br>비<br>중
+                                    .el__content
+                                      .el__text 준비중
+                                      .el__close-btn
+                                .el__index
+                                  .el__index-back 
+                                  .el__index-front
+                                    .el__index-overlay(data-index='3') 
+                              // el end
+                              // el start
+                              .el
+                                .el__overflow
+                                  .el__inner
+                                    .el__bg
+                                    .el__preview-cont
+                                      h2.el__heading 준<br>비<br>중
+                                    .el__content
+                                      .el__text 준비중
+                                      .el__close-btn
+                                .el__index
+                                  .el__index-back 
+                                  .el__index-front
+                                    .el__index-overlay(data-index='4') 
+                              // el end
+                              // el start
+                              .el
+                                .el__overflow
+                                  .el__inner
+                                    .el__bg
+                                    .el__preview-cont
+                                      h2.el__heading 준<br>비<br>중
+                                    .el__content
+                                      .el__text 준비중
+                                      .el__close-btn
+                                .el__index
+                                  .el__index-back 
+                                  .el__index-front
+                                    .el__index-overlay(data-index='5')
+                              // el end
+                            // cont inner end
+                            a.icon-link(onclick="location.href='/'" title=`돌아가기`)
+                              img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png')
+                            a.icon-link.icon-link--department(onclick="window.open('https://www.cku.ac.kr/sites/software/index.do')" title=`학과페이지`)
+                              img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png')
+        when `건축`:  .cont.s--inactive
+                        // cont inner start
+                        .cont__inner
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 학<br>사<br>일<br>정
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='1') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 교<br>육<br>과<br>정
+                                .el__content
+                                  .el__text 건축학과 교육과정
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='2') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='3') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='4') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='5')
+                          // el end
+                        // cont inner end
+                        a.icon-link(onclick="location.href='/'")
+                          img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png')
+                        a.icon-link.icon-link--department(onclick="window.open('https://www.cku.ac.kr/sites/arch/index.do')")
+                          img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png')
+        when `토목`:  .cont.s--inactive
+                        // cont inner start
+                        .cont__inner
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 학<br>사<br>일<br>정
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='1') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 교<br>육<br>과<br>정
+                                .el__content
+                                  .el__text 토목공학과 교육과정
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='2') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='3') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='4') 
+                          // el end
+                          // el start
+                          .el
+                            .el__overflow
+                              .el__inner
+                                .el__bg
+                                .el__preview-cont
+                                  h2.el__heading 준<br>비<br>중
+                                .el__content
+                                  .el__text 준비중
+                                  .el__close-btn
+                            .el__index
+                              .el__index-back 
+                              .el__index-front
+                                .el__index-overlay(data-index='5')
+                          // el end
+                        // cont inner end
+                        a.icon-link(onclick="location.href='/'")
+                          img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png')
+                        a.icon-link.icon-link--department(onclick="window.open('https://www.cku.ac.kr/sites/civil/index.do')")
+                          img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png')
+        when `전자공`:  .cont.s--inactive
+                          // cont inner start
+                          .cont__inner
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 학<br>사<br>일<br>정
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='1') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 교<br>육<br>과<br>정
+                                  .el__content
+                                    .el__text 전자공학과 교육과정
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='2') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='3') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='4') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='5')
+                            // el end
+                          // cont inner end
+                          a.icon-link(onclick="location.href='/'")
+                            img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png')
+                          a.icon-link.icon-link--department(onclick="window.open('https://www.cku.ac.kr/sites/eice/index.do')")
+                            img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png')
+        when `건축공`:  .cont.s--inactive
+                          // cont inner start
+                          .cont__inner
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 학<br>사<br>일<br>정
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='1') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 교<br>육<br>과<br>정
+                                  .el__content
+                                    .el__text 전자공학과 교육과정
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='2') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='3') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='4') 
+                            // el end
+                            // el start
+                            .el
+                              .el__overflow
+                                .el__inner
+                                  .el__bg
+                                  .el__preview-cont
+                                    h2.el__heading 준<br>비<br>중
+                                  .el__content
+                                    .el__text 준비중
+                                    .el__close-btn
+                              .el__index
+                                .el__index-back 
+                                .el__index-front
+                                  .el__index-overlay(data-index='5')
+                            // el end
+                          // cont inner end
+                          a.icon-link(onclick="location.href='/'")
+                            img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png')
+                          a.icon-link.icon-link--department(onclick="window.open('https://www.cku.ac.kr/sites/eice/index.do')")
+                            img(src='https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png')
+script(src='js/profile.js')
